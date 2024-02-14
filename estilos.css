@@ -28,11 +28,11 @@ body{
 }
 
 .titulo-con-logo span {
-    margin-right: 6px; /* Espacio entre el texto y el logo */
+    margin-right: 5px; /* Espacio entre el texto y el logo */
 }
 .logo img {
     height: 40px;
-    width: 100%;
+    width: 120%;
 }
 
 .contenedor-header header{
@@ -58,7 +58,7 @@ body{
 .contenedor-header header nav a{
     display: inline-block;
     color: #fff;
-    padding: 7px;
+    padding: 6px;
     text-transform: uppercase;
 }
 .nav-box a {

@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="whap.css">
+    <link rel="stylesheet" href="lightbox.css">
     <link rel="stylesheet" href="estilos.css">
     <title>VIVA PROYECT</title>
 </head>
 <body>
+    <a href="https://api.whatsapp.com/send?phone=+5493624205555&text=Hola, me gustaría obtener más información.." class="btn-wsp" target="_blank">
+	    <i class="fa-brands fa-whatsapp"></i>
+	</a>
     <!-- Menu -->
     <div class="contenedor-header">
         <header>
             <h1 class="titulo-con-logo">
-                <span><span class="txtCeleste">VIVA</span> <span class="txtRosa">FIT</span></span>
+                <span><span class="txtCeleste"></span> <span class="txtRosa">LOGO</span></span>
                 <!-- <div class="logo">
                     <img src="imagenes/logo.webp" alt="">
                 </div> -->
@@ -69,15 +74,6 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi id laudantium ab iure! Ea voluptas vero facilis nihil, quae porro, assumenda nisi laborum magnam delectus suscipit esse ex soluta accusantium.
                 </p>
             </div>
-        </div>
-        <div>
-        <!-- <div class="fila-nosotros">
-            <div class="col1">
-                <span class="frase">
-                    <span class="txtRosa">ENTRENA </span>DIFERENTE
-                </span>
-                <h2>ENTRENA <span class="txtRosa">GRATI S</span>HOY</h2>
-            </div> -->
         </div>
         </div>
     </section>
@@ -177,26 +173,26 @@
                     <h2>GALERIA</h2>
                 </div>
             </div>
-            <div class="fila">
-                <div class="col">
-                    <img src="imagenes/f1.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="imagenes/f2.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="imagenes/f3.jpg" alt="">
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <img src="imagenes/f4.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="imagenes/f5.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="imagenes/f6.jpg" alt="">
+            <div class="container">
+                <div class="gallery" >
+                    <a href="imagenes/f1.jpg" data-lightbox="models" data-title="Imagen1">
+                        <img src="imagenes/f1.jpg" alt="">
+                    </a>
+                    <a href="imagenes/f2.jpg" data-lightbox="models" data-title="Imagen2">
+                        <img src="imagenes/f2.jpg" alt="">
+                    </a>
+                    <a href="imagenes/f3.jpg" data-lightbox="models" data-title="Imagen3">
+                        <img src="imagenes/f3.jpg" alt="">
+                    </a>
+                    <a href="imagenes/f4.jpg" data-lightbox="models" data-title="Imagen4">
+                        <img src="imagenes/f4.jpg" alt="">
+                    </a>
+                    <a href="imagenes/f5.jpg" data-lightbox="models" data-title="Imagen5">
+                        <img src="imagenes/f5.jpg" alt="">
+                    </a>
+                    <a href="imagenes/f6.jpg" data-lightbox="models" data-title="Imagen6">
+                        <img src="imagenes/f6.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -316,5 +312,6 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
